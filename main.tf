@@ -31,8 +31,6 @@ module "asg" {
   instance_type   = "${var.linux_instance_type}"
   security_groups = ["${module.wordpress_sg.this_security_group_id}"]
   user_data            = "${data.template_file.userdata.rendered}"
-  key_name = "london"
-
 
 
   # Auto scaling group
