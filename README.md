@@ -26,3 +26,4 @@ Once the apply finishes it can take 5+ mins before wordpress becomes available.
 * Should be using TLS thought but not possible without a domain.
 * EFS maybe slow at high volume, would need to add dummy data in order to get performance boost.
 * Cloudfront would improve performance but is difficult to implement without a domain.
+* A golden image AMI would speed up deployment times and recovery if an instance dies.
