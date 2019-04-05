@@ -1,0 +1,8 @@
+client_name = "acme"
+environment = "production"
+linux_ami_id = "ami-09ead922c1dad67e4"
+linux_instance_type = "m5.large"
+db_password = "password123"
+wp_ver = "latest"
+wp_admin_passwd = "password123"
+wp_admin_email = "email@acme.com"
